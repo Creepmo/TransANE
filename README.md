@@ -55,4 +55,4 @@ python main.py -options
 #### 评估函数
 
 - node_classify()：节点分类实验；
-- node_network_visualization(): 网络可视化实验。
+- network_visualization(): 网络可视化实验。
