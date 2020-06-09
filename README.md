@@ -2,6 +2,20 @@
 
 TransANE的实现版本
 
+## 论文地址
+
+https://www.researchgate.net/publication/329748640_Translation-Based_Attributed_Network_Embedding
+
+## ppt地址
+
+链接：https://pan.baidu.com/s/1KGK8D1gpE6tpjjYsjbOEsg 
+提取码：cqhx
+
+## 数据集地址
+
+链接：https://pan.baidu.com/s/1IKGIUyaAncr92aCCr-2hrg 
+提取码：kikl
+
 ## 使用方法
 
 ```python
@@ -33,7 +47,7 @@ python main.py -options
 #### 输入数据格式
 
 以文件夹形式存储，包含四个文件：attr_info.txt，doublelink.edgelist，group.txt，init.emb
-- attr_info.txt：节点属性文件，格式为node_id 属性类别1_属性值 属性类别2_属性值 属性类别3_属性值 ...；
+- attr_info.txt：节点属性文件，格式为node_id 属性类别1\_属性值 属性类别2\_属性值 属性类别3\_属性值 ...；
 - doublelink.edgelist：连边文件，格式为head_id tail_id,以空格间隔；
 - group.txt：节点label文件，每一行表示一个id的label；
 - init.emb：节点embedding的初始化文件，以deepwalk pre-train产生的embedding作为初始化embedding。
@@ -55,4 +69,4 @@ python main.py -options
 #### 评估函数
 
 - node_classify()：节点分类实验；
-- node_network_visualization(): 网络可视化实验。
+- network_visualization(): 网络可视化实验。
